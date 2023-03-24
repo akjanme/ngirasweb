@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-iisdeployment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "cross-env NODE_ENV=production webpack --config build/webpack.config.js",
+    "start": "next start",
+    "lint": "next lint",
+    "next:export": "next export",
+    "export": "cross-env-shell JSS_MODE=disconnected PORT=3000 EXPORT_MODE=true \"npm-run-all --serial bootstrap next:build next:export\""
+  },
+  "dependencies": {
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.8",
+    "next": "13.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

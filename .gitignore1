@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://fossies.org/linux/next.js/examples/with-storybook/.gitignore -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="nofollow">
+<link rel="stylesheet" type="text/css" href="./ngirasweb_files/fresh.css">
+<link rel="stylesheet" type="text/css" href="./ngirasweb_files/standard.css">
+<title>Next.js: examples/with-storybook/.gitignore | Fossies</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<script type="text/javascript" src="./ngirasweb_files/highlight_styles.js.download"></script>
+</head>
+<body><div id="WzTtDiV" style="visibility: hidden; position: absolute; overflow: hidden; padding: 0px; width: 0px; left: 0px; top: 0px;"></div>
+<script type="text/javascript" src="./ngirasweb_files/wz_tooltip.js.download"></script>
+<script type="text/javascript" src="./ngirasweb_files/tip_balloon.js.download"></script>
+<h2><img src="./ngirasweb_files/forest1.gif" width="45" height="29" alt=""> "<a href="https://fossies.org/">Fossies</a>" - the Fresh Open Source Software Archive <img src="./ngirasweb_files/forest2.gif" width="48" height="30" alt=""></h2>
+<h3>Member "next.js-13.2.4/examples/with-storybook/.gitignore" (10 Mar 2023, 415 Bytes) of package <a href="https://fossies.org/" title="Fossies homepage">/</a><a href="https://fossies.org/linux/" title="Listing of all main folders within the Fossies basic folder /linux/">linux</a>/<a href="https://fossies.org/linux/www/" title="Listing of all packages within the Fossies folder /linux/www/">www</a>/<a href="https://fossies.org/linux/www/next.js-13.2.4.tar.gz/" title="Contents listing, member browsing, download with different compression formats &amp; more ...">next.js-13.2.4.tar.gz</a>:</h3>
+<hr>
+<div class="fresh_info">
+As a special service "Fossies" has tried to format the requested text file into HTML format (style: <a href="https://fossies.org/select_hl_style_text" style="text-decoration:underline;" onmouseover="Tip(hl_styles_text, ABOVE, false, OFFSETX, 0, OFFSETY, 5, BALLOON, true, FOLLOWMOUSE, false, WIDTH, 730, DELAY, 0, FADEIN, 0, FADEOUT, 1000, DURATION, 20000, STICKY, 1, CLICKCLOSE, true)" onmouseout="UnTip()" title="About highlight style types">standard</a>) with prefixed line numbers.
+Alternatively you can here <a href="https://fossies.org/linux/www/next.js-13.2.4.tar.gz/next.js-13.2.4/examples/with-storybook/.gitignore?m=t">view</a> or <a href="https://fossies.org/linux/www/next.js-13.2.4.tar.gz/next.js-13.2.4/examples/with-storybook/.gitignore?m=b" onmouseover="Tip(hl_dl_tip, ABOVE, false, OFFSETX, 0, OFFSETY, -5, BALLOON, true, FOLLOWMOUSE, false, WIDTH, 400, DELAY, 0, FADEIN, 0, FADEOUT, 300, DURATION, 10000, STICKY, 1, CLICKCLOSE, true)" onmouseout="UnTip()" title="By the way: A member file download can also be achieved by clicking within a package contents listing on the according byte size field">download</a> the uninterpreted source code file.
+
+</div>
+<hr>
+<pre class="hl"><span class="hl lin" id="l_1">    1 </span># See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+<span class="hl lin" id="l_2">    2 </span>
+<span class="hl lin" id="l_3">    3 </span># dependencies
+<span class="hl lin" id="l_4">    4 </span>/node_modules
+<span class="hl lin" id="l_5">    5 </span>/.pnp
+<span class="hl lin" id="l_6">    6 </span>.pnp.js
+<span class="hl lin" id="l_7">    7 </span>
+<span class="hl lin" id="l_8">    8 </span># testing
+<span class="hl lin" id="l_9">    9 </span>/coverage
+<span class="hl lin" id="l_10">   10 </span>
+<span class="hl lin" id="l_11">   11 </span># next.js
+<span class="hl lin" id="l_12">   12 </span>/.next/
+<span class="hl lin" id="l_13">   13 </span>/out/
+<span class="hl lin" id="l_14">   14 </span>
+<span class="hl lin" id="l_15">   15 </span># production
+<span class="hl lin" id="l_16">   16 </span>/build
+<span class="hl lin" id="l_17">   17 </span>
+<span class="hl lin" id="l_18">   18 </span># misc
+<span class="hl lin" id="l_19">   19 </span>.DS_Store
+<span class="hl lin" id="l_20">   20 </span>*.pem
+<span class="hl lin" id="l_21">   21 </span>
+<span class="hl lin" id="l_22">   22 </span># debug
+<span class="hl lin" id="l_23">   23 </span>npm-debug.log*
+<span class="hl lin" id="l_24">   24 </span>yarn-debug.log*
+<span class="hl lin" id="l_25">   25 </span>yarn-error.log*
+<span class="hl lin" id="l_26">   26 </span>.pnpm-debug.log*
+<span class="hl lin" id="l_27">   27 </span>
+<span class="hl lin" id="l_28">   28 </span># local env files
+<span class="hl lin" id="l_29">   29 </span>.env*.local
+<span class="hl lin" id="l_30">   30 </span>
+<span class="hl lin" id="l_31">   31 </span># vercel
+<span class="hl lin" id="l_32">   32 </span>.vercel
+<span class="hl lin" id="l_33">   33 </span>
+<span class="hl lin" id="l_34">   34 </span># typescript
+<span class="hl lin" id="l_35">   35 </span>*.tsbuildinfo
+<span class="hl lin" id="l_36">   36 </span>next-env.d.ts
+<span class="hl lin" id="l_37">   37 </span>
+<span class="hl lin" id="l_38">   38 </span># storybook
+<span class="hl lin" id="l_39">   39 </span>storybook-static
+</pre>
+</body></html>
